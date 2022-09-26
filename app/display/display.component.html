@@ -1,0 +1,18 @@
+<button type="submit" (click)="findallMovieData()" > Show the data for all movies</button>
+<br>
+<table border=3>
+    <tbody>
+        <tr *ngFor="let admin of admins">
+            <td>{{admin.movie_id}}</td>
+            <td>{{admin.movie_name}}</td>
+            <td>{{admin.release_year}}</td>
+            <td>{{admin.language}}</td>
+            <td>{{admin.rating}}</td>
+            <td>{{admin.duration_in_minutes}}</td>
+            <td>{{admin.movie_type}}</td>
+            <td>{{admin.director_name}}</td>
+            <td>{{admin.lead_actor_name1}}</td>
+            <td>{{admin.lead_actor_name2}}</td>
+        </tr>
+    </tbody>
+</table>

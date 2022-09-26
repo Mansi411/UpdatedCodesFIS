@@ -1,0 +1,15 @@
+<button type="submit" (click)="displaycustomer()" > Show the data of all customers</button>
+<br>
+<br>
+<table border=2>
+    <tbody>
+        <tr *ngFor="let customer of customers">
+            <td>{{customer.customer_id}}</td>
+            <td>{{customer.customer_name}}</td>
+            <td>{{customer.contact_no}}</td>
+            <td>{{customer.contact_address}}</td>
+            <td>{{customer.date_of_registration}}</td>
+            <td>{{customer.age}}</td>
+        </tr>
+    </tbody>
+</table>

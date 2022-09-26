@@ -1,0 +1,55 @@
+<table border="1">
+    <tr>
+        <td>Enter Movie ID</td>
+        <td><input type="text" [(ngModel)]="mid"></td>
+    </tr>
+    <br>
+    <tr>
+        <td>Enter Movie Name</td>
+        <td><input type="text" [(ngModel)]="mname"></td>
+    </tr>
+    <br>
+    <tr>
+        <td>Enter Release Year</td>
+        <td><input type="text" [(ngModel)]="mreleaseyear"></td>
+    </tr>
+    <br>
+    <tr>
+        <td>Enter Language</td>
+        <td><input type="text" [(ngModel)]="mlanguage"></td>
+    </tr>
+    <br>
+    <tr>
+        <td>Enter the Ratings</td>
+        <td><input type="text" [(ngModel)]="mratings"></td>
+    </tr>
+    <br>
+    <tr>
+        <td>Enter the duration in minutes</td>
+        <td><input type="text" [(ngModel)]="mduration"></td>
+    </tr>
+    <br>
+    <tr>
+        <td>Enter Movie Type</td>
+        <td><input type="text" [(ngModel)]="mtype"></td>
+    </tr>
+    <br>
+    <tr>
+        <td>Enter the Director Name</td>
+        <td><input type="text" [(ngModel)]="mdirectorname"></td>
+    </tr>
+    <br>
+    <tr>
+        <td>Enter the Lead Actor 1</td>
+        <td><input type="text" [(ngModel)]="mlead1"></td>
+    </tr>
+    <br>
+    <tr>
+        <td>Enter the Lead Actor 2</td>
+        <td><input type="text" [(ngModel)]="mlead2"></td>
+    </tr>
+</table>
+
+<br>
+<br>
+<button type="submit" (click)="insertData()"> Insert Movie Data</button>
